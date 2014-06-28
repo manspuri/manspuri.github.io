@@ -1,0 +1,27 @@
+body {
+	background-color: #E6EBF5
+}
+.header {
+	color: darkgreen;
+	text-align: center;
+	border-bottom: solid 5px darkgreen;
+}
+.footer a:hover {
+	color:orange;
+}
+
+.footer {
+	text-align: center;
+	border-top: 5px solid darkgreen;
+	color: darkgreen;
+}
+
+.content {
+	color: darkgreen;
+	text-align: center;
+}
+
+.content p{
+	text-align: left;
+}
+
