@@ -1,0 +1,10 @@
+body {
+	background-color: lightblue;
+}
+#greeting {
+	text-align: center;
+	color: red;
+}
+p {
+	color: darkblue;
+}
