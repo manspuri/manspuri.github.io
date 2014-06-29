@@ -1,0 +1,42 @@
+body {
+	font-family: Arial;
+}
+.header {
+	color: black;
+	border-bottom: solid 2px black;
+	border-top: solid 2px black;
+	height: 200px;
+	background-image: url("https://mynewdesign.files.wordpress.com/2012/12/ideo.jpg");
+}
+.footer a:hover {
+	font-weight: bolder;
+}
+.content a:hover {
+	font-weight: bolder;
+}
+.footer {
+	text-align: center;
+	border-top: 2px solid darkgrey;
+	color: darkgrey;
+	border-bottom: 5px solid darkgrey;
+}
+a {
+	color:black;
+}
+
+.content {
+	color: black;
+	text-align: center;
+	width: 60%;
+	margin: auto;
+}
+
+.content p{
+	text-align: left;
+}
+
+.container {
+	width: 1500px;
+	margin: auto;
+}
+
