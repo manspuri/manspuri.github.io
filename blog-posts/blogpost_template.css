@@ -1,5 +1,6 @@
 body {
-	background-color: #E6EBF5
+	background-color: #E6EBF5;
+	font-family: century;
 }
 .header {
 	color: darkgreen;
@@ -19,6 +20,8 @@ body {
 .content {
 	color: darkgreen;
 	text-align: center;
+	width: 60%;
+	margin:0 20%;
 }
 
 .content p{
