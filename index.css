@@ -1,33 +1,103 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
 body {
-	background-color: #E6EBF5;
-	font-family: century;
+	line-height: 1;
 }
-.header {
-	color: darkgreen;
-	text-align: center;
-	border-bottom: solid 5px darkgreen;
+ol, ul {
+	list-style: none;
 }
-.footer a:hover {
-	color:orange;
+blockquote, q {
+	quotes: none;
 }
-.header a:hover {
-	color:orange;
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
 }
-
-.footer {
-	text-align: center;
-	border-top: 5px solid darkgreen;
-	color: darkgreen;
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-.content {
-	color: darkgreen;
-	text-align: center;
-	width: 60%;
-	margin:0 20%;
+/* end of reset.css */
+
+body {
+	background-image: url("http://blog.shoppigment.com/wp-content/uploads/2013/08/succulents-3.jpg");
+	background-attachment: fixed;
+	background-size: cover; 
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #FFFFEB;
+	font-family: 'Open Sans', sans-serif;
 }
 
-.content p{
+header {
+	margin: .75em;
+	font-size: 2em;
+}
+
+.intro {
+	margin: 1em;
+	font-size: 1.5em;
 	text-align: left;
 }
+
+.work {
+	margin: 1em;
+	font-size: 2em;
+	float: left;
+	width: 25%;
+	height: 70%;
+}
+
+.social {
+	float: right;
+	margin-right: 1em;
+	font-size: 1.5em;
+	width: 10%;
+	text-align: center;
+}
+
+a {
+	color: #FFFFEB;
+}
+
+a:hover {
+	font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  src: url('http://fonts.googleapis.com/css?family=Open+Sans');
+}
+
+
 
