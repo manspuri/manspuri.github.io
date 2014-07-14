@@ -1,0 +1,37 @@
+body {
+	background-color: #E6EBF5;
+	font-family: century;
+}
+.header {
+	color: darkgreen;
+	text-align: center;
+	border-bottom: solid 5px darkgreen;
+}
+a:hover {
+	color:orange;
+}
+
+.footer {
+	text-align: center;
+	border-top: 5px solid darkgreen;
+	color: darkgreen;
+}
+
+.main {
+	color: darkgreen;
+	text-align: center;
+	width: 60%;
+	margin:0 20%;
+}
+
+p {
+	text-align: left;
+}
+
+a {
+	color: black;
+}
+
+header h4 {
+	text-align: left;
+}
