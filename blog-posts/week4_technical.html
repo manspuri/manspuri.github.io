@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="week4_technical.css">
+		<meta charset= "utf-8">
+		<title>Mansi's DBC Blog</title>
+	</head>
+	<body>
+		<div class="header">
+			<header>
+				<h4><a href="http://manspuri.github.io">Coding with Plant By My Side...</a></h4>	
+				<h1>Mansi Puri's Blog</h1>
+			</header>
+		</div>
+			<div class= "main">
+				<h2>Ruby: Enumerable#cycle</h2>
+				<p>First things first - an 'enumerable' is the term that we use to say we can get elements out of a collection, one at a time.  An 'enumerator' is the tool used to get each element out of its collection. Ruby has many enumerators and you can take a look at all of them at <a href="http://ruby-doc.org/core-2.1.2/Enumerator.html">Ruby-Doc.org</a>.</p>
+				<p>This blog posts' focus will be on Enumerable#cycle. Enumerable#cycle can be used with arrays and hashes and it basically calls a block of code on each element repeatedly as many times as you ask it to, or forever if you don't give it a specific number of repetitions (an argument). A few important points about Enumerable#cycle:
+					<ul>
+						<li>The argument for #cycle specifies the number of times to cycle; it does not relate to the number of elements that the cycle runs through.</li>
+						<li>If a non-positive number is given as the argument, #cycle does nothing.</li>
+						</ul>
+						</p>
+				<p>It's also important to note that Enumerable#cycle will continue to call a block of code for each element for as many times as you ask it to.  If you don't provide a specific number as an argument, then you have an infitite loop on your hands.</p>
+				<div class="example">
+					<h3>Enough talking. Let's see an example.</h3>
+				<p> Enumerable#cycle(argument) {|object| block of code }<br>
+					a = [2, 3, 4]<br>
+					b = {2: a, 3: b, 4: c}<br>
+					a.cycle { |x| puts x } # ==> 2, 3, 4, 2, 3, 4, 2, 3, 4,... and so on...forever.<br>
+					b.cycle(3) { |k, v| puts v } # ==> a, b, c, a, b, c, a, b, c
+				</div>
+		</div>
+		<div class="footer">
+				<footer>
+					<h3>Connect</h3><br>
+					<a href="https://www.facebook.com/mans.puri">Facebook</a><br>
+					<a href="https://www.linkedin.com/profile/view?id=168167074&authType=name&authToken=YMkQ&locale=en_US&pvs=pp&trk=ppro_viewmore">LinkedIn</a><br>  
+					<a href="https://github.com/manspuri">GitHub</a><br>
+					<a href="http://www.quora.com/Mansi-Puri">Quora</a><br>
+					<a href="mailto:mans.puri@gmail.com">Email</a>
+				</footer>
+			</div>
+	</body>
+</html>
