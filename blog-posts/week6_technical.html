@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="week6_technical.css">
+		<meta charset= "utf-8">
+		<title>Mansi's DBC Blog</title>
+	</head>
+	<body>
+		<div class="header">
+			<header>
+				<h4><a href="http://manspuri.github.io">Coding with Plant By My Side...</a></h4>	
+				<h1>Mansi Puri's Blog</h1>
+			</header>
+		</div>
+			<div class= "main">
+				<h2>Blocks, Procs, and Lambdas</h2>
+				<p>Blocks, Procs, and lambdas are all <em>closures</em> in the Ruby language.  Closures are functions which remember all of the values of the variables in the function's scope when it was created.  When a closure is created, it keeps the values of the variables that were in the scope when the closure was made or defined. This way, the closure is able to access the variables when it is called even if the variables are no longer in the scope.  Furthermore, closures have the ability to be passed around like an object (stored in collections or passed on to other functions).</p>  
+				<h3>Blocks</h3>
+				<p>Blocks are a the most common type of closure and are simply a bit of code which can be passed.  Blocks utilize 'do...end' or curly bracket {} syntax.  You can use them with methods such as .times or .each to iterate through a series of elements.  Below is an example of a block:</p>
+				<a href="http://imgur.com/jV6zKqo"><img src="http://i.imgur.com/jV6zKqo.png" title="Hosted by imgur.com" /></a>
+				<h3>Procs</h3>
+				<p>It is important to note that blocks are NOT objects.  Therefore, blocks do not have all of the abilities of objects such as being saved as variables.  But procs do have these abilities!  Procs are basically a saved block.  You can turn a block into a proc so that it can be used many times over.  Here's an example:</p>
+				<a href="http://imgur.com/vhm2NWI"><img src="http://i.imgur.com/vhm2NWI.png" title="Hosted by imgur.com"/></a>
+				<p>Procs are advantageous because they are objects and therefore have all of the abilities of an object.  Also, procs can be called many times over without having to rewrite/retype them.  You can also execute procs by using 'call':</p>
+				<a href="http://imgur.com/JoofrFM"><img src="http://i.imgur.com/JoofrFM.png" title="Hosted by imgur.com"/></a>
+				<h3>Lambdas</h3>
+				<p>Lambdas are almost identical to Procs with a few differences.  The first is that instead of writing lambda.new like we would write proc.new, we just write 'lambda'.  The second is that a lambda checks the arguments that are passed into it, but a proc does not.  So, if you pass the wrong number of arguments, the lambda will throw an error while a proc will just assign nil to any arguments that are missing.  Finally, once a lambda returns something, it passes the control back to the calling method.  A proc does not pass control back to the calling method.</p>
+				<h3>Additional Resources</h4>
+				<ul>
+				<li><a href="http://www.reactive.io/tips/2008/12/21/understanding-ruby-blocks-procs-and-lambdas/">Reactive.io</a></li>
+				<li><a href="http://www.codecademy.com/courses/ruby-beginner-en-L3ZCI/2/4">codeacademy</a></li>
+				</ul>
+		</div>
+		<div class="footer">
+				<footer>
+					<h3>Connect</h3><br>
+					<a href="https://www.facebook.com/mans.puri">Facebook</a><br>
+					<a href="https://www.linkedin.com/profile/view?id=168167074&authType=name&authToken=YMkQ&locale=en_US&pvs=pp&trk=ppro_viewmore">LinkedIn</a><br>  
+					<a href="https://github.com/manspuri">GitHub</a><br>
+					<a href="http://www.quora.com/Mansi-Puri">Quora</a><br>
+					<a href="mailto:mans.puri@gmail.com">Email</a>
+				</footer>
+			</div>
+	</body>
+</html>
