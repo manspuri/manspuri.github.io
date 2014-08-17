@@ -1,0 +1,161 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end of reset.css */
+
+body {
+	background-color: #FFFFF5;
+}
+
+.content h3 {
+	font-weight: 900;
+	color: #5E5E50;
+	border-bottom: solid 2px #5E5E50;
+	padding-bottom: 8px;
+	font-size: 1.3em;
+}
+
+header {
+	margin: .5em;
+	font-size: 4em;
+	border-bottom: solid 4px #5E5E50;
+	font-weight: 900;
+	font-style: italic;
+	color: #5E5E50;
+}
+
+header a {
+	text-decoration: none;
+	font-style: italic;
+	color: #5E5E50;
+	font-size: .5em;
+	text-align: center;
+}
+
+.headline_tags {
+	float: left;
+	margin: auto;
+	width: 21em;
+	padding: 2em;
+	font-size: 1.1em;
+	color: #4C4C3D;
+}
+
+.content_tags {
+	float: left;
+	margin: auto;
+	width: 25em;
+	padding: 2em;
+	font-size: 1.1em;
+	color: #4C4C3D;
+}
+
+
+.inline_tags {
+	float: left;    
+	margin: auto;
+    width: 18em;
+	padding: 2em;
+	font-size: 1.1em;
+	color: #4C4C3D;
+}
+
+
+.structural_tags {
+	float: left;
+	margin: auto;
+	width: 20em;
+	padding: 2em;
+	font-size: 1.1em;
+	color: #4C4C3D;
+}
+
+.HTML_template {
+	width: 100%;
+	padding: 1em;
+	text-align: center;
+}
+
+.HTML_template img {
+	height: 500px;
+	width: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+footer {
+	margin: auto;
+	width: 100%;
+	padding-bottom: 2em;
+	text-align: center;
+	font-size: 2em;
+	color: #5E5E50;
+}
+
+footer a {
+	text-decoration: none;
+	color: #5E5E50;
+}
+
+footer h3 {
+	padding: .25em;
+	font-size: 1.1em;
+	font-style: italic;
+	font-weight: 900;
+}
+
+footer li {
+	padding: .25em;
+	font-size: .75em;
+}
+
+a:hover {
+	color: black;
+}
