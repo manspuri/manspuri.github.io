@@ -1,0 +1,51 @@
+body {
+	background-color: white;
+	font-family: century;
+}
+.header {
+	color: #282828;
+	text-align: center;
+	border-bottom: solid 5px black;
+}
+a:hover {
+	color:orange;
+}
+
+.footer {
+	text-align: center;
+	border-top: 5px solid black;
+	color: #282828;
+}
+
+.main {
+	color: #282828;
+	text-align: center;
+	width: 60%;
+	margin:0 20%;
+}
+.example {
+	color: #606060;
+}
+.example h3 {
+	color: #282828;
+}
+
+p {
+	text-align: left;
+}
+ul {
+	text-align: left;
+}
+
+a {
+	color: black;
+}
+
+header h4 {
+	text-align: left;
+}
+
+h2 {
+	text-align: center;
+}
+
