@@ -49,7 +49,23 @@ table {
 
 /* end of reset.css */
 
+body {
+}
 
+#greeting {
+	font-size: 64px;
+	text-align: center;
+	height: 1000px;
+}
+
+#myLinks {
+	height: 500px;
+}
+
+#myLinks a{
+	text-align: center;
+	padding: 200px;
+}
 
 
 
