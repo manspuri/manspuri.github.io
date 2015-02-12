@@ -50,6 +50,11 @@ table {
 /* end of reset.css */
 
 body {
+	height: 100%;
+}
+
+.container {
+	width: 100%;
 }
 
 #greeting {
@@ -59,13 +64,19 @@ body {
 }
 
 #myLinks {
-	height: 500px;
+	height: 50%;
+	width: 268px;
+	margin: 0 auto;
 }
 
-#myLinks a{
-	text-align: center;
-	padding: 200px;
+#myLinks a {
+	display: inline-block;
+	width: 64px;
+	padding-bottom: 300px;
 }
+
+
+
 
 
 
